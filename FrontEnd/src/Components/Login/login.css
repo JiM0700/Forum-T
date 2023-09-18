@@ -1,0 +1,39 @@
+.logininputDiv{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:rgba(140, 140, 140, 0.7);
+    border-bottom: 1px solid blue;
+}
+.logininpBox{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 100%;
+}
+::placeholder{
+    color: white;
+    padding-left: 5px;
+}
+.logininpBox:focus{
+    outline: none;
+}
+.mailLoginBoxDiv{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.loginbtn{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100px;
+}
+.mailLoginDiv{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.signupLink{
+    text-decoration: none;
+    color: white;
+}
+.signupLink:hover{
+    text-decoration: underline;
+}

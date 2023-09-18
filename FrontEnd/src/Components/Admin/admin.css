@@ -1,0 +1,27 @@
+.adminLeftNav{
+    height: 100vh;
+}
+.adminLeftNavText{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.columnList>th{
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+}
+.adminLink{
+    text-decoration: none;
+}
+.adminDetailsTable>td{
+    text-align: center;
+    white-space: nowrap;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50px;
+}
+.deleteButton,.managebutton:hover{
+    cursor: pointer;
+}

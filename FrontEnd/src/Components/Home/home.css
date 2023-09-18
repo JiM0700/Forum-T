@@ -1,0 +1,58 @@
+.homeMainDiv{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.homeMiddleDiv{
+    position:absolute;
+    left: 25%;
+}
+.searchFormDiv>input::placeholder{
+    color: black;
+}
+.searchForm{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.searchForm:focus{
+    outline: none;
+}
+.postInnerDiv{
+    width: 100%;
+    border-radius: 5px;
+}
+.leftHome{
+    position:fixed;
+}
+.rightHome{
+    position: fixed;
+    left: 75%;
+}
+.homeLogo{
+    text-decoration: none;
+}
+.viewPostDiv{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+.createPostDiv{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+.createPostInput{
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.postButton{
+    position: relative;
+    left: 85%;
+}
+.createPostInput:focus{
+    outline: none;
+}
+.replySectionInput::placeholder{
+    text-align: left;
+}

@@ -1,0 +1,41 @@
+.signupDiv{
+    background-color:rgba(140, 140, 140, 0.7);
+}
+.regTable>tr>div{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid white;
+}
+.signupSecondDiv{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.registerButton{
+    width: 100px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.regFormLabel{
+    font-size: small;
+    color: white;
+}
+.regInputs{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: transparent;
+    /* border-bottom: 1px solid white; */
+}
+.regInputs:focus{
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.loginLink{
+    text-decoration: none;
+}
+.loginLink:hover{
+    text-decoration: underline;
+}
